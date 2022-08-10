@@ -1,0 +1,19 @@
+    1  sudo gedit printargs.scala
+    2  cat printargs.scala
+    3  scala printargs.scala Scala est bien
+    4  sudo gedit echoargs.scala
+    5  scala echoargs.scala Scala is even more fun
+    6  sudo gedit pa.scala
+    7  scala pa.scala Concise is nice
+    8  sudo gedit forargs.scala
+    9  scala forargs.scala for arg in args
+   10  sudo gedit forargs.scala
+   11  scala pa.scala Concise is nice
+   12  gedit forargs.scala
+   13  sudo gedit forargs.scala
+   14  scala forargs.scala for arg in args
+   15  gedit forargs.scala
+   16  sudo gedit forargs.scala
+   17  scala forargs.scala for arg in args
+   18  sudo gedit forargs.scala
+   19  history>history.txt
