@@ -1,0 +1,32 @@
+trait Hamburger {
+//Deux variable définie
+val breadType : String = "Pain à burger"
+val steakType : String = "Boeuf"
+
+//Une valeur non définie
+val cheeseType : String
+
+//Une méthode définie
+def eat(): Unit = println("Manger...")
+
+//Une méthode non définie
+def waste() : Unit
+}
+
+class BigGreen(pCheese : String,
+	       pSalad : String,
+	       pTomato : Int,
+	       pPickles: Int,
+	       pOnion : Int
+	       ) extends Hamburger {
+
+	val Salad : String = pSalad
+	val Tomato : Int = pTomato
+	val Pickles : Int = pPickles
+	val Onion : Int = pOnion
+	val cheeseType : String = pCheese
+
+	override val steakType :  String = "None"
+
+	def waste() : Unit = println("Wasted :( !!!!")
+}

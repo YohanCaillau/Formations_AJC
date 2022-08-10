@@ -1,0 +1,26 @@
+Vous devez concevoir une base de donnée qui va servir à stocker les tickets d'incidence / demande de support d'une organisation de taille moyenne.
+ 
+Chaque utilisateur peut soumettre un ticket en précisant un titre et une description. Il doit être possible de faire le lien entre le ticket et la personne qui l'a soumise.
+ 
+De la même manière un ticket peut avoir plusieurs status : soumis, en cours, résolu, etc. Un ticket soumis pourra être attribué à un membre de l'organisation. 
+
+Un système de catégorie de ticket pourra être envisagé "bug logiciel", "problème réseau", "problème de mobilier (panne d'ampoule par ex), etc.
+  
+Une fois la base de donnée conçue faire en sorte d'insérer des fausses données dessus. Il faudra ensuite faire les requêtes suivantes : 
+ - compter le nombre de ticket attribué à chaque personne 
+ - compter le nombre de ticket ouvert par heure - compter le nombre de ticket par type 
+ - afficher la catégorie ayant le plus grand nombre de ticket
+
+Bonus : faire en sorte d'ajouter un index sur la colonne stockant le type de tag et comparer la vitesse de requête avant index et après index. 
+Si vous avez inséré un grand nombre de données vous devriez pouvoir une différence
+
+Bonus 2 : faire un tableau de bord en streamlit (librairie python permettant de développer un site web simplement) qui:
+- se connecte à la db et permet d'afficher des informations sur le système de ticket
+- permet de soumettre un ticket
+
+Bonus 3 : On veut désormais stocker les statistiques des tickets dans une base à part. 
+Créer une table permettant de stocker les informations suivantes : nombre de tickets, nombre de ticket pour la catégorie "bug logiciel" , nombre de tickets pour problème réseau, etc. 
+Se renseigner sur les trigger et faire en sorte qu'à chaque fois qu'un nouveau ticket soit ajouté, cette table soit mise à jour avec les bonnes valeurs
+
+
+

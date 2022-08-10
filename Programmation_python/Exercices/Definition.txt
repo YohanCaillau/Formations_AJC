@@ -1,0 +1,3 @@
+Définition= Python est un langage de programmation interprété, 
+ multiparadigme et multiplateformes. Il favorise la programmation impérative structurée, fonctionnelle et orientée objet#bonjour
+ceci est un test

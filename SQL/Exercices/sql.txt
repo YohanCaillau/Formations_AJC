@@ -1,0 +1,53 @@
+CREATE TABLE `customer` (
+	`id` INT NOT NULL AUTO_INCREMENT,
+	`name` varchar(255),
+	`email` varchar(255),
+	`city` varchar(255),
+	`zip_code` varchar(255),
+	`adress` varchar(255),
+	PRIMARY KEY (`id`)
+);
+
+CREATE TABLE `orders` (
+	`id` INT NOT NULL AUTO_INCREMENT,
+	`quantity` INT,
+	`product` varchar(255),
+	`price` FLOAT,
+	`customer_id` INT NOT NULL,
+	PRIMARY KEY (`id`)
+);
+
+ALTER TABLE `orders` ADD CONSTRAINT `orders_fk0` FOREIGN KEY (`customer_id`) REFERENCES `customers`(`id`);
+
+
+
+EMPLOYEES
+
+LASTNAME	FIRSTNAME	CITY
+
+
+Tables_in_northwind
+CATEGORIES
+CUSTOMERS
+EMPLOYEES
+ORDERS
+ORDER_DETAILS
+PRODUCTS
+SHIPPERS
+SUPPLIERS
+1.8
+18
+
+
+
+SELECT
+UNIT_PRICE,
+QUANTITY,
+DISCOUNT,
+SUM(UNIT_PRICE - DISCOUNT)*QUANTITY AS montant
+FROM
+ORDER_DETAILS
+
+
+
+SELECT CUSTOMER_country, suppliercountry, category, nb_commandes, montant

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<produit>
+    <Software >
+        <item nom="ABC">Convertisseur PDF</item>
+        <prix>100</prix>
+        <version>1.2</version>
+    </Software>
+    <Hardware >
+        <item nom="XYZ">Clavier</item>
+        <prix>20</prix>
+        <garantie>2 ans</garantie>
+    </Hardware>
+ 
+</produit>

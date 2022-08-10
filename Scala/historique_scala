@@ -1,0 +1,47 @@
+def matchTest(x:Int) : String = x match {
+case 0 => "Zero"
+case 1 => "One"
+case 2 => "Two"
+case _ => "Many"
+}
+matchTest(1)
+matchTest(2)
+matchTest(3)
+matchTest(0)
+def nDividesM(m:Int)(n:Int) = (n % m == 0)
+val isEven = nDividesM(2)_
+isEven(4)
+isEven(5)
+val liste = List("bleu", "rouge", "vert", "blanc")
+liste.size
+liste.filter(x => x.startsWith("b"))
+liste.count(x=>x.startsWith("b"))
+class Personne(val nom:String , var age:Int){}
+var p1 = new Personne("Stephane", 32)
+var p2 = new Personne("Sophie", 22)
+p1.age
+p2.age
+p2.nom
+p1.nom
+class Point(var x:Int = 0, var y:Int = 0)
+val origine = new Point
+origine.x
+origine.y
+val point1 = new Point(5)
+point1.x
+point1.y
+val point2 = new Point(y=2)
+point2.x
+point2.y
+case class Book(isbn:String)
+val frankenstein = Book("978-048658745")
+frankenstein.isbn
+case class Message(sender: String, recipient: String, message: String)
+var message = Message("guillaume@gmailcom", "ajc@gmailcom","c'est quoi cette formation !!!!")
+message.sender
+message.recipient
+case class Message1(var sender: String, recipient: String, message: String)
+var message = Message1("guillaume@gmailcom", "ajc@gmailcom","c'est quoi cette formation !!!!")
+message.sender
+message.sender="toto@gmail.com"
+message.sender

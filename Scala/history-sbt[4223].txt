@@ -1,0 +1,47 @@
+    1  sudo gedit hello.scala
+    2  scala Hello
+    3  scala hello.scala
+    4  scalac hello.scala
+    5  scala Hello
+    6  mkdir projet-build
+    7  cd projet-build/
+    8  ls
+    9  touch build.sbt
+   10  ls
+   11  sbt
+   12  ls
+   13  ll
+   14  tree
+   15  mkdir -p src/main/scala/exemple
+   16  cd src/main/scala/example
+   17  cd src/main/scala/exemple
+   18  sudo gedit Hello.scala
+   19  ls
+   20  sbt compile
+   21  ls
+   22  cd target
+   23  ls
+   24  cd scala-2.12
+   25  ls
+   26  cd classes
+   27  ls
+   28  cd example
+   29  ls
+   30  cat Hello.class
+   31  cd 
+   32  ls 
+   33  cd project-build
+   34  cd /project-build
+   35  cd projet-build/
+   36  sbt compile
+   37  sbt run
+   38  ls
+   39  sbt package
+   40  cd target/scala-2.12/
+   41  ls
+   42  scala projet-build_2.12-0.1.0-SNAPSHOT.jar
+   43  jar tvf projet-build_2.12-0.1.0-SNAPSHOT.jar
+   44  sudo apt install openjdk-8-jdk-headless 
+   45  jar tvf projet-build_2.12-0.1.0-SNAPSHOT.jar
+   46  scala projet-build_2.12-0.1.0-SNAPSHOT.jar
+  
