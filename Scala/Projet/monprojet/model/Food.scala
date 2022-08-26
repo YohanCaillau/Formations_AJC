@@ -1,0 +1,1 @@
+case class Food(name: String)
