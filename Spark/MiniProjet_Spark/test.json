@@ -1,0 +1,24 @@
+{
+  "datasetid": "velib-disponibilite-en-temps-reel@parisdata",
+  "recordid": "62b7f5fc0b342942c86f41193e5d4344882f4790",
+  "fields": {
+    "name": "Froment - BrÃ©guet",
+    "stationcode": "11025",
+    "ebike": 5,
+    "mechanical": 13,
+    "coordonnees_geo": [48.8570414504784, 2.37289470306807],
+    "duedate": "2022-08-11T09:08:51+00:00",
+    "numbikesavailable": 18,
+    "numdocksavailable": 21,
+    "capacity": 43,
+    "is_renting": "OUI",
+    "is_installed": "OUI",
+    "nom_arrondissement_communes": "Paris",
+    "is_returning": "OUI"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [2.37289470306807, 48.8570414504784]
+  },
+  "record_timestamp": "2022-08-11T09:13:00.484Z"
+}
