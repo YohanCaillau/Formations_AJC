@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: www-0
+  namespace: default
+spec:
+  replicas: 3
+  selector: 
+    matchLabels:
+       app: wwww
+  template:
+    metadata:
+       labels:
+         app: wwww
+    spec:
+       containers:
+         - name: nginx
+           image: nginx:1.16-alpine
+           ports:
+            - containerPort: 80
