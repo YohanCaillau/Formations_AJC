@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html lang="fr" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html lang="fr" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html lang="fr" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="fr" class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="UTF-8" />
+<link href="https://chamilo.org/chamilo-lms/" rel="help" />
+<link href="https://chamilo.org/the-association/" rel="author" />
+<link href="https://www.gnu.org/licenses/gpl-3.0.en.html" rel="license" />
+<!-- Force latest IE rendering engine or ChromeFrame if installed -->
+<!--[if IE]>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<![endif]-->
+
+<link rel="shortcut icon" href="https://ajc-classroom.ajc-formation.fr/web/css/themes/chamilo/images/favicon.ico" type="image/x-icon" />
+<link rel="apple-touch-icon" href="https://ajc-classroom.ajc-formation.fr/apple-touch-icon.png" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="generator" content="Chamilo 1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AJC - ajc@classroom - Réaliser de l'ingenierie BIG DATA avec MICROSOFT CLOUD SERVICES</title>
+
+<link href="https://ajc-classroom.ajc-formation.fr/web/assets/fontawesome/css/font-awesome.min.css" rel="stylesheet" media="screen" type="text/css" />
+<link href="https://ajc-classroom.ajc-formation.fr/web/assets/jquery-ui/themes/smoothness/theme.css" rel="stylesheet" media="screen" type="text/css" />
+<link href="https://ajc-classroom.ajc-formation.fr/web/assets/jquery-ui/themes/smoothness/jquery-ui.min.css" rel="stylesheet" media="screen" type="text/css" />
+<link href="https://ajc-classroom.ajc-formation.fr/web/assets/mediaelement/build/mediaelementplayer.min.css" rel="stylesheet" media="screen" type="text/css" />
+<link href="https://ajc-classroom.ajc-formation.fr/web/assets/jqueryui-timepicker-addon/dist/jquery-ui-timepicker-addon.min.css" rel="stylesheet" media="screen" type="text/css" />
+<link href="https://ajc-classroom.ajc-formation.fr/web/assets/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" media="screen" type="text/css" />
+<link href="https://ajc-classroom.ajc-formation.fr/web/assets/jquery.scrollbar/jquery.scrollbar.css" rel="stylesheet" media="screen" type="text/css" />
+<link href="https://ajc-classroom.ajc-formation.fr/web/assets/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet" media="screen" type="text/css" />
+<link href="https://ajc-classroom.ajc-formation.fr/web/assets/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet" media="screen" type="text/css" />
+<link href="https://ajc-classroom.ajc-formation.fr/web/assets/select2/dist/css/select2.min.css" rel="stylesheet" media="screen" type="text/css" />
+<link href="https://ajc-classroom.ajc-formation.fr/web/assets/flag-icon-css/css/flag-icon.min.css" rel="stylesheet" media="screen" type="text/css" />
+<link href="https://ajc-classroom.ajc-formation.fr/main/inc/lib/javascript/mediaelement/plugins/vrview/vrview.css" rel="stylesheet" media="screen" type="text/css" />
+<link href="https://ajc-classroom.ajc-formation.fr/main/inc/lib/javascript/chosen/chosen.css" rel="stylesheet" media="screen" type="text/css" />
+
+<script src="https://ajc-classroom.ajc-formation.fr/web/assets/modernizr/modernizr.js"></script>
+<script src="https://ajc-classroom.ajc-formation.fr/web/assets/jquery/dist/jquery.min.js"></script>
+<script src="https://ajc-classroom.ajc-formation.fr/web/assets/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="https://ajc-classroom.ajc-formation.fr/web/assets/jquery-ui/jquery-ui.min.js"></script>
+<script src="https://ajc-classroom.ajc-formation.fr/web/assets/jqueryui-touch-punch/jquery.ui.touch-punch.min.js"></script>
+<script src="https://ajc-classroom.ajc-formation.fr/web/assets/moment/min/moment-with-locales.js"></script>
+<script src="https://ajc-classroom.ajc-formation.fr/web/assets/bootstrap-daterangepicker/daterangepicker.js"></script>
+<script src="https://ajc-classroom.ajc-formation.fr/web/assets/jquery-timeago/jquery.timeago.js"></script>
+<script src="https://ajc-classroom.ajc-formation.fr/web/assets/mediaelement/build/mediaelement-and-player.min.js"></script>
+<script src="https://ajc-classroom.ajc-formation.fr/web/assets/jqueryui-timepicker-addon/dist/jquery-ui-timepicker-addon.min.js"></script>
+<script src="https://ajc-classroom.ajc-formation.fr/web/assets/image-map-resizer/js/imageMapResizer.min.js"></script>
+<script src="https://ajc-classroom.ajc-formation.fr/web/assets/jquery.scrollbar/jquery.scrollbar.min.js"></script>
+<script src="https://ajc-classroom.ajc-formation.fr/web/assets/readmore-js/readmore.min.js"></script>
+<script src="https://ajc-classroom.ajc-formation.fr/web/assets/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+<script src="https://ajc-classroom.ajc-formation.fr/web/assets/bootstrap-select/dist/js/i18n/defaults-fr_FR.min.js"></script>
+<script src="https://ajc-classroom.ajc-formation.fr/web/assets/select2/dist/js/select2.min.js"></script>
+<script src="https://ajc-classroom.ajc-formation.fr/web/assets/select2/dist/js/i18n/fr.js"></script>
+<script src="https://ajc-classroom.ajc-formation.fr/web/assets/js-cookie/src/js.cookie.js"></script>
+<script src="https://ajc-classroom.ajc-formation.fr/web/assets/ckeditor/ckeditor.js"></script>
+<script src="https://ajc-classroom.ajc-formation.fr/web/assets/jqueryui-timepicker-addon/dist/i18n/jquery-ui-timepicker-fr.js"></script>
+<script src="https://ajc-classroom.ajc-formation.fr/web/assets/jquery-ui/ui/minified/i18n/datepicker-fr.min.js"></script>
+<script src="https://ajc-classroom.ajc-formation.fr/main/inc/lib/javascript/chosen/chosen.jquery.min.js"></script>
+<script src="https://ajc-classroom.ajc-formation.fr/main/inc/lib/javascript/mediaelement/plugins/vrview/vrview.js"></script>
+<script src="https://ajc-classroom.ajc-formation.fr/main/inc/lib/javascript/mediaelement/plugins/markersrolls/markersrolls.min.js"></script>
+
+<script>var _p = {
+    "web": "https:\/\/ajc-classroom.ajc-formation.fr\/",
+    "web_url": "https:\/\/ajc-classroom.ajc-formation.fr\/web\/",
+    "web_relative": "\/",
+    "web_course": "https:\/\/ajc-classroom.ajc-formation.fr\/courses\/",
+    "web_main": "https:\/\/ajc-classroom.ajc-formation.fr\/main\/",
+    "web_css": "https:\/\/ajc-classroom.ajc-formation.fr\/web\/css\/",
+    "web_css_theme": "https:\/\/ajc-classroom.ajc-formation.fr\/web\/css\/themes\/chamilo\/",
+    "web_ajax": "https:\/\/ajc-classroom.ajc-formation.fr\/main\/inc\/ajax\/",
+    "web_img": "https:\/\/ajc-classroom.ajc-formation.fr\/main\/img\/",
+    "web_plugin": "https:\/\/ajc-classroom.ajc-formation.fr\/plugin\/",
+    "web_lib": "https:\/\/ajc-classroom.ajc-formation.fr\/main\/inc\/lib\/",
+    "web_upload": "https:\/\/ajc-classroom.ajc-formation.fr\/app\/upload\/",
+    "web_self": "\/main\/document\/document.php",
+    "self_basename": "document.php",
+    "web_query_vars": "cidReq=REALISERINGENIERIEBIGDATAMICROSOFTCLOUDS&amp;id_session=193&amp;gidReq=0&amp;gradebook=0&amp;origin=&amp;action=download&amp;id=47155",
+    "web_self_query_vars": "\/main\/document\/document.php?cidReq=REALISERINGENIERIEBIGDATAMICROSOFTCLOUDS&amp;id_session=193&amp;gidReq=0&amp;gradebook=0&amp;origin=&amp;action=download&amp;id=47155",
+    "web_cid_query": "cidReq=REALISERINGENIERIEBIGDATAMICROSOFTCLOUDS&id_session=193&gidReq=0&gradebook=0&origin=",
+    "web_rel_code": "\/main\/"
+}</script>
+                <script>
+                var logOutUrl = 'https://ajc-classroom.ajc-formation.fr/main/inc/ajax/course.ajax.php?a=course_logout&cidReq=REALISERINGENIERIEBIGDATAMICROSOFTCLOUDS&id_session=193&gidReq=0&gradebook=0&origin=';
+                function courseLogout() {
+                    $.ajax({
+                        async : false,
+                        url: logOutUrl,
+                        success: function (data) {
+                            return 1;
+                        }
+                    });
+                }
+                </script>
+
+<script src="https://ajc-classroom.ajc-formation.fr/web/build/main.french.js"></script>
+
+<link href="https://ajc-classroom.ajc-formation.fr/web/css/base.css" rel="stylesheet" media="screen" type="text/css" />
+<link href="https://ajc-classroom.ajc-formation.fr/web/css/themes/chamilo/default.css" rel="stylesheet" media="screen" type="text/css" />
+<link href="https://ajc-classroom.ajc-formation.fr/web/css/editor_content.css" rel="stylesheet" media="screen" type="text/css" />
+
+
+</head>
+<body class="page_origin_">
+    <!-- START MAIN -->
+    <main id="main" dir="ltr" class="section-mycourses section-login">
+    <noscript>Votre navigateur n'autorise pas le JavaScript. Chamilo dépend hautement du JavaScript pour vous fournir une interface plus dynamique. Il est probable que la plupart des fonctionnalités soient accessibles, mais vous pourriez passer à côté des dernières améliorations en termes d'usabilité. Nous vous suggérons de modifier la configuration de votre navigateur (généralement dans le menu Édition -> Préférences) et de rafraîchir cette page.</noscript>
+
+            
+                            <!-- START HEADER -->
+                <header id="cm-header">
+                    <div id="navigation" class="notification-panel">
+    
+    
+</div>
+    <!-- Topbar -->
+
+    
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-md-3">
+                            <div class="key-login">
+                    <a href="#login-block" id="btn-login" class="btn btn-default">
+                        <img src="https://ajc-classroom.ajc-formation.fr/main/img/icons/22/key.png" alt="key"> S'authentifier
+                    </a>
+                </div>
+                        <div class="logo">
+                <a href="https://ajc-classroom.ajc-formation.fr/index.php"  ><img title="ajc@classroom" class="img-responsive" id="header-logo" src="https://ajc-classroom.ajc-formation.fr/web/css/themes/chamilo/images/header-logo-custom1.png" alt="AJC"  /></a>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-9">
+            <div class="row">
+                <div class="col-sm-4">
+                                    </div>
+                <div class="col-sm-3">
+                                    </div>
+                <div class="col-sm-5">
+                    <ol class="header-ol">
+                                                <li>
+                            <div class="section-notifications">
+                                                            </div>
+                        </li>
+                        <li>
+                            
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Fixed navbar -->
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="pull-right  navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+                        <a class="navbar-brand" href="https://ajc-classroom.ajc-formation.fr/"> <em class="fa fa-home"></em> </a>
+        </div>
+
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                                                        
+                                            <li class="homepage ">
+                            <a href="https://ajc-classroom.ajc-formation.fr/index.php"  title="Page d'accueil">
+                                Page d'accueil
+                            </a>
+                        </li>
+                                                                            
+                                            <li class="page-ajc-formation ">
+                            <a href="http://www.ajc-formation.fr" target="_blank" title="ajc-formation">
+                                ajc-formation
+                            </a>
+                        </li>
+                                                                            
+                                            <li class="page-quest ">
+                            <a href="https://quest.ajc.razon.fr/" target="_blank" title="quest">
+                                quest
+                            </a>
+                        </li>
+                                                </ul>
+                    </div><!--/.nav-collapse -->
+    </div>
+</nav>
+            <div class="nav-tools">
+            
+        </div>
+                    </header>
+
+            
+            <!-- START CONTENT -->
+            <section id="cm-content">
+                <div class="container">
+                                            <!-- TOOLS SHOW COURSE -->
+                        <div id="cm-tools" class="nav-tools">
+                            
+                        </div>
+                        <!-- END TOOLS SHOW COURSE -->
+                    
+                                            <ul class="breadcrumb"  ><li class="active"  ><a href="https://ajc-classroom.ajc-formation.fr/courses/REALISERINGENIERIEBIGDATAMICROSOFTCLOUDS/index.php?id_session=193" target="_self"><img src="https://ajc-classroom.ajc-formation.fr/main/img/home.png" alt="R&eacute;aliser de l'ingenierie BIG DATA avec MICROSOFT CLOUD SERVICES (F-220629-DIS-399-DATA_ENGINEER_INTER)" title="R&eacute;aliser de l'ingenierie BIG DATA avec MICROSOFT CLOUD SERVICES (F-220629-DIS-399-DATA_ENGINEER_INTER)"  /> R&eacute;aliser de l'ingenierie BIG DATA avec MICROSOFT CLOUD SERVICES (F-220629-DIS-399-DATA_ENGINEER_INTER)</a></li></ul>
+                    
+                            
+    <div class="row">
+        <div class="col-xs-12 col-md-12">
+            
+
+
+
+                                                <section id="main_content">
+                        <div class="alert alert-danger"  >Vous n'êtes pas autorisé à accéder à cette page. Soit votre connexion a expiré, soit vous essayez d'accéder à une page pour laquelle vous ne disposez pas des permissions suffisantes.</div><h4>Veuillez vous connecter pour accéder au cours</h4><div class="well"><form class="form-horizontal" action="/main/document/document.php?cidReq=REALISERINGENIERIEBIGDATAMICROSOFTCLOUDS&amp;id_session=193&amp;gidReq=0&amp;gradebook=0&amp;origin=&amp;action=download&amp;id=47155&amp;redirect_after_not_allow_page=1" method="post" name="formLogin" id="formLogin">
+        <fieldset>
+            
+                <div class="form-group ">
+                    <label for="formLogin_login" class="col-sm-2 control-label" >
+                        
+                    </label>
+                    <div class="col-sm-8">
+                        
+                        <input  placeholder="Nom d'utilisateur" class="col-md-3 form-control" name="login" type="text" id="formLogin_login" /></div>
+                    <div class="col-sm-2"></div>
+                </div>
+                <div class="form-group ">
+                    <label for="formLogin_password" class="col-sm-2 control-label" >
+                        
+                    </label>
+                    <div class="col-sm-8">
+                        
+                        <input  placeholder="Mot de passe" class="col-md-3 form-control" name="password" type="password" id="formLogin_password" /></div>
+                    <div class="col-sm-2"></div>
+                </div>
+                <div class="form-group ">
+                    <label for="formLogin_submitAuth" class="col-sm-2 control-label" >
+                        
+                    </label>
+                    <div class="col-sm-8">
+                        
+                        
+                <button class=" btn btn-primary "  name="submitAuth" type="submit" id="formLogin_submitAuth"><em class="fa fa-arrow-right"></em> S'identifier</button></div>
+                    <div class="col-sm-2"></div>
+                </div>
+        </fieldset>
+        <input name="_qf__formLogin" type="hidden" value="" id="formLogin__qf__formLogin" />
+
+        </form></div><hr/><p style="text-align:center"><a href="https://ajc-classroom.ajc-formation.fr/">Retour à la page d'accueil</a></p>
+                    </section>
+                                    </div>
+    </div>
+
+    
+                    </div>
+            </section>
+            <!-- END CONTENT -->
+
+                        <!-- START FOOTER -->
+            <footer class="footer">
+                <div class="container">
+        <section class="sub-footer">
+        <div class="row">
+            <div class="col-xs-12 col-md-4">
+                                <div class="session-teachers">
+                    Coach : <a class="ajax" href="https://ajc-classroom.ajc-formation.fr/main/inc/ajax/user_manager.ajax.php?a=get_user_popup&amp;user_id=10336"  >Semeh BEN SALEM (BENSALEMS)</a>
+                </div>
+                                                <div class="teachers">
+                    Enseignant : <a class="ajax" href="https://ajc-classroom.ajc-formation.fr/main/inc/ajax/user_manager.ajax.php?a=get_user_popup&amp;user_id=1"  >superviseur ajc (mcp99)</a>
+                </div>
+                                            </div>
+            <div class="col-xs-12 col-md-4">
+                            </div>
+            <div class="col-xs-12 col-md-4 text-right">
+                                    <div class="administrator-name">
+                        Responsable : <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#109;&#98;&#114;&#97;&#121;&#101;&#114;&#64;&#97;&#106;&#99;&#45;&#102;&#111;&#114;&#109;&#97;&#116;&#105;&#111;&#110;&#46;&#102;&#114;" class="clickable_email_link">ajc superviseur</a>
+                    </div>
+                                                    <div class="software-name">
+                        <a href="https://ajc-classroom.ajc-formation.fr/" target="_blank">
+                            Créé avec Chamilo
+                        </a>&copy; 2022
+                    </div>
+                                            </div>
+        </div>
+            </section>
+</div>
+
+            </footer>
+            <!-- END FOOTER -->
+            
+        </main>
+    <!-- END MAIN -->
+
+    <div class="modal fade" id="global-modal" tabindex="-1" role="dialog" aria-labelledby="global-modal-title" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fermer">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="global-modal-title">&nbsp;</h4>
+            </div>
+            <div class="modal-body" id="global-modal-body">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="expand-image-modal" tabindex="-1" role="dialog" aria-labelledby="expand-image-modal-title" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fermer"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="expand-image-modal-title">&nbsp;</h4>
+            </div>
+            <div class="modal-body">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="confirm-delete" tabindex="-1" role="dialog" aria-labelledby="confirm-delete-title" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="confirm-delete-title">Supprimer</h4>
+            </div>
+
+            <div class="modal-body">
+                <p class="debug-url"></p>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Annuler</button>
+                <a id="delete_item" class="btn btn-danger btn-ok">Supprimer</a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
